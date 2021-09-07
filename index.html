@@ -34,6 +34,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
       }
     </style>
   </head>
@@ -61,7 +67,7 @@
       firebase.analytics();
     </script>
     <script>
-      var serviceWorkerVersion = '4236074322';
+      var serviceWorkerVersion = '3916489106';
       var scriptLoaded = false;
       function loadMainDartJs() {
         if (scriptLoaded) {
