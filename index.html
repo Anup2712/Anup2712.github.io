@@ -104,23 +104,33 @@
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
   <script>
+    // const firebaseConfig = {
+    //   apiKey: "AIzaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    //   authDomain: "xxxxxxxxx.firebaseapp.com",
+    //   databaseURL: "https://xxxxxxxx.firebaseio.com",
+    //   projectId: "xxxxxx",
+    //   storageBucket: "xxxxxxx.appspot.com",
+    //   messagingSenderId: "xxxxxxxxxxxxx",
+    //   appId: "x:xxxxxxxxxxxx:web:xxxxxxxxxxxxxxxx",
+    //   measurementId: "G-xxxxxxxxx"
+    // };
     const firebaseConfig = {
-      apiKey: "AIzaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-      authDomain: "xxxxxxxxx.firebaseapp.com",
-      databaseURL: "https://xxxxxxxx.firebaseio.com",
-      projectId: "xxxxxx",
-      storageBucket: "xxxxxxx.appspot.com",
-      messagingSenderId: "xxxxxxxxxxxxx",
-      appId: "x:xxxxxxxxxxxx:web:xxxxxxxxxxxxxxxx",
-      measurementId: "G-xxxxxxxxx"
+      apiKey: "AIzaSyDK0S3g2Qi93eWg9Oxm5eecTM7zlFAqoSA",
+      authDomain: "coverage-c5baf.firebaseapp.com",
+      projectId: "coverage-c5baf",
+      storageBucket: "coverage-c5baf.appspot.com",
+      messagingSenderId: "770857829588",
+      appId: "1:770857829588:web:527e257d9ba1cba9912741",
+      measurementId: "G-MPXC00798P"
     };
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
 
   </script>
   <script>
-    var serviceWorkerVersion = '770954253';
+    var serviceWorkerVersion = '2533897079';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
